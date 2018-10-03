@@ -24,7 +24,7 @@ class DlegattHelloExtension extends Extension
         $configuration = $this->getConfiguration($configs, $container);
         $config = $this->processConfiguration($configuration, $configs);
 
-        $definition = $container->getDefinition('dlegatt_hello_world.hello');
+        $definition = $container->getDefinition('dlegatt_hello.hello');
         $definition->setArgument(0, $config['default_name']);
     }
 
