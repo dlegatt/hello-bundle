@@ -1,0 +1,32 @@
+{
+    "name": "dlegatt/hello-bundle",
+    "description": "Symfony bundle for dlegatt/hello-world",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "David Legatt",
+            "email": "dlegatt@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dlegatt/hello-world"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dlegatt\\HelloBundle\\": ""
+        }
+    },
+    "require": {
+        "dlegatt/hello-world":"^1.0",
+        "symfony/framework-bundle": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    }
+}
