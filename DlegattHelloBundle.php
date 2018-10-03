@@ -11,7 +11,7 @@ namespace Dlegatt\HelloBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class DlegattHelloWorldBundle extends Bundle
+class DlegattHelloBundle extends Bundle
 {
 
 }
