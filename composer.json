@@ -3,7 +3,7 @@
     "description": "Symfony bundle for dlegatt/hello-world",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "authors": [
         {
             "name": "David Legatt",
