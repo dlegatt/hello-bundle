@@ -25,6 +25,7 @@ class Configuration implements ConfigurationInterface
                 ->end()
                 ->scalarNode('http_client')
                 ->defaultValue("http_client")
+                ->end()
             ->end()
         ;
 
