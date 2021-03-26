@@ -23,6 +23,8 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('default_name')
                 ->defaultValue("World")
                 ->end()
+                ->scalarNode('http_client')
+                ->defaultValue("http_client")
             ->end()
         ;
 

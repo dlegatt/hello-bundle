@@ -26,6 +26,7 @@ class DlegattHelloExtension extends Extension
 
         $definition = $container->getDefinition('dlegatt_hello.hello');
         $definition->setArgument(0, $config['default_name']);
+        $definition->setArgument(1, $container->getDefinition($config['http_client']));
     }
 
     public function getAlias()
